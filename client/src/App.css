@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* MY CSSSSSSSSSSSSSSSSS */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(47, 49, 51);
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(28, 28, 28);
+}
+
+.dashboard h1{
+  padding: 50px;
+  color: aliceblue;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+  background-color: rgb(28, 28, 28);
+}
+
+.add-link{
+  width: 110px;
+  height: 40px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-right: 35px;
+  background-color: rgb(7, 131, 208);
+  padding-top: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 25px rgba(21, 21, 21, 0.468);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.container{
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+  color: aliceblue;
+}
+
+.container button{
+  margin: 10px;
+  width: 80px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 3px 5px 20px rgba(4, 4, 4, 0.486);
+}
+
+.container img{
+  height: 200px;
+}
+
+.container p{
+  margin: 10px;
+}
+
+
+/* NEW RENTALLLLLLLLLLLLL */
+
+
