@@ -1,15 +1,34 @@
 const mongoose = require('mongoose');
 
 
-
-
 // CHANGE the items below for BELT EXAM
 
 const RentalSchema = new mongoose.Schema({
-    address: { type: String },
-    imageUrl: { type: String },
-    newConstruction: { type: Boolean },
-    propertyType: { type: String },
+    address: {
+        type: String,
+        minlength: [
+            10,
+            'The address must be at least 10 Characters.'
+        ]
+    },
+    imageUrl: {
+        type: String,
+        minlength: [
+            10,
+            'The image URL must be at least 10 Characters.'
+        ]
+    },
+    newConstruction: {
+        type: Boolean,
+        default: true
+    },
+    propertyType: {
+        type: String,
+        required: [
+            true,
+            'You must specify the property type.'
+        ]
+    },
     likes: {
         type: Number,
         default: 0
